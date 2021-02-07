@@ -10,3 +10,8 @@ The commands available to the users:
 
 ![Interface](https://i.gyazo.com/eb9ec4b85a913eff7cc416eb0736278c.png)
 
+Some examples of commands being used:
+
+![Interface](https://i.gyazo.com/6bfd70050f8c5c7e6238d3471a29c517.png)
+![Interface](https://i.gyazo.com/af0651a9d54d1bacb9a24adb43294dba.png)
+
