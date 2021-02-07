@@ -3,4 +3,5 @@ Web application of a basic student registry similar to what a school would use. 
 Apache Tomcat 9.0 was used to host the server and deploy the web application locally. It currently is not being hosted publicly.
 
 The user interface is as seen below:
+
 ![Interface](https://i.gyazo.com/8a2c9e2c7f8d1258bb93fa39d04c2e5e.png)
