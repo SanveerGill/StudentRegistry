@@ -27,3 +27,5 @@ The database is initially constructed with two tables, one for courses and one f
 When a student is registered, the application stores their information in the students table, and when a new course is added, it stores its information in the courses table.
 When the user reschedules a course for a different time, this information is updated in the course table in that course's row, etc. 
 Also, additional tables are added as new students/courses are registered. Each student gets their own table to hold a list of their courses along with their grades, to ensure that this information can be accessed using the student's ID by the user if needed. Each course also gets its own table to act as a classlist. These tables are dynamically added to the database when the user adds students/courses and is accessed using the student/course IDs. This setup allows for easy access of student/course information requiring the user to provide minimal input to locate information and relay it to them.       
+
+![Interface](https://i.gyazo.com/7b9128ade0144b0c9a47453abfccc1d4.png)
