@@ -18,7 +18,7 @@ Some examples of commands being used:
 
 When the user submits information through the HTML form, the Java servlet's doPost method is invoked and the appropriate action is carried out. 
 For the command above, the user inputs the student's name and ID to register them into the system. The servlet receives this information from the JSP
-and stores the name and ID in my mySQL database. 
+and stores the name and ID in my mySQL database. The application uses the Java Database Connectivity API to connect and communicate with the mySQL database. It utilizes the statement interface to execute SQL queries to both store and receieve data when necessary. 
 The database is initially constructed with two tables, one for courses and one for students as seen below:
 
 ![Interface](https://i.gyazo.com/7e6e6109d684b329168714c1b822b37b.png)
@@ -29,3 +29,4 @@ When the user reschedules a course for a different time, this information is upd
 Also, additional tables are added as new students/courses are registered. Each student gets their own table to hold a list of their courses along with their grades, to ensure that this information can be accessed using the student's ID by the user if needed. Each course also gets its own table to act as a classlist. These tables are dynamically added to the database when the user adds students/courses and is accessed using the student/course IDs. This setup allows for easy access of student/course information requiring the user to provide minimal input to locate information and relay it to them. After a few courses/students have been registered, the database looks like this:      
 
 ![Interface](https://i.gyazo.com/7b9128ade0144b0c9a47453abfccc1d4.png)
+
